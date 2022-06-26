@@ -1,18 +1,10 @@
-<script setup>
+<script setup >
 import HelloWorld from './components/HelloWorld.vue'
-import Home from './components/Home.vue'
-
-//export default {
-//  name: 'App',
-//  components: {
-//    HelloWorld
-//  }
-//}
+//import Home from './components/Home.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <Home/>
+  <HelloWorld msg="Welcome to Your Vue.js"/>
 </template>
 
 
