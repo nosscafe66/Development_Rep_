@@ -17,6 +17,7 @@
 // eslint-disable-next-line
 /* eslint-disable */ 
 import * as d3 from 'd3'  //有効にする
+
 export default {
   name: 'Calculator',
   data: function() {

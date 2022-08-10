@@ -1,11 +1,92 @@
 <mxfile host="65bd71144e">
     <diagram id="3IGlPISyxYPJrRM3U2YD" name="ページ1">
-        <mxGraphModel dx="642" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2195" dy="1714" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-                    <mxGeometry x="30" y="100" width="90" height="90" as="geometry"/>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="App.vue" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+                    <mxGeometry x="373.8" y="50" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="CalculatorPage.vue" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+                    <mxGeometry x="557.6" y="465" width="116" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Privacypolicy.vue" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+                    <mxGeometry x="427.6" y="465" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="HomeView.vue" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+                    <mxGeometry x="177.6" y="465" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="About.vue" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+                    <mxGeometry x="297.6" y="465" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="index.html" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.html5;gradientColor=#DFDEDE" vertex="1" parent="1">
+                    <mxGeometry y="-110" width="102.4" height="102.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="main.js" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#205E00;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="14.45" y="85" width="73.5" height="84" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="17" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="17" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="index.js" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.android;fillColor=#205E00;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="154.45000000000002" y="250" width="73.5" height="84" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Vue-Router(ルーティング)" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="127.6" y="220" width="592.4" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Mainフレーム" style="swimlane;" vertex="1" parent="21">
+                    <mxGeometry x="12.4" y="170" width="567.6" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="ページの遷移情報を記載するファイル" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="21">
+                    <mxGeometry x="135.4" y="65" width="213" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="コンポーネント" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="650" width="567.6" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Helloworld.vue" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="27">
+                    <mxGeometry x="29.600000000000023" y="60" width="116" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Calculator.vue" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="27">
+                    <mxGeometry x="417.6" y="60" width="116" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Vue.jsを動作させるための基本となるjsファイル" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="-177" y="250" width="267" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="components内のすべての***.vueに適用される内容が記載されている" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="431" y="161" width="375" height="18" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
