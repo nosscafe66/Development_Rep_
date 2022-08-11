@@ -14,10 +14,22 @@
 </div>
 </template>
 <script>
+<<<<<<< Updated upstream
 export default {
   name: 'Calculator',
   props: {
     msg: String
+=======
+
+export default {
+  name: 'Calculator',
+  data: function() {
+    return {
+        message:'',  //入力データを格納する変数。
+        result :'',  //演算結果を格納する変数。
+        state:"wait" //現在の状況を格納する変数。
+    }
+>>>>>>> Stashed changes
   }
 }
 </script>
