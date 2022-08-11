@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Privacy from '../views/Privacy.vue'
-import CalculatorPage from '../views/CalculatorPage.vue'
 
 const routes = [
   {
@@ -21,11 +20,6 @@ const routes = [
     path: '/privacy',
     name: 'privacy',
     component: Privacy
-  },
-  {
-    path: '/calculator',
-    name: 'calculator',
-    component: CalculatorPage
   },
 ]
 

@@ -2,8 +2,7 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/privacy">Privacypolicy</router-link> |
-    <router-link to="/calculator">CalculatorPage</router-link>
+    <router-link to="/privacy">Privacypolicy</router-link>
   </nav>
   <router-view/>
 </template>
