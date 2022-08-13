@@ -3,21 +3,37 @@
   <p>Caluculator Program</p>
   <textarea name="text" id="" cols="30" rows="10"></textarea>
   <br>
-  <input type="text">
-  <input type="text">
-  <input type="text">
+  <input type="number" placeholder="数値1" v-model.number="inputnumber1">
+  <input type="number" placeholder="数値2" v-model.number="inputnumber2">
+  <p>結果：{{inputnumber1 + inputnumber2}}</p>
+  <br>
   <ul>
-    <button class="button">計算</button>
-    <button class="button">入力</button>
-    <button class="button">消去</button>
+    <button v-on:click="doCalc()" class="button">計算</button>
+    <button v-on:click="doDelete()" class="button">消去</button>
   </ul>
 </div>
 </template>
 <script>
+//import Vue from 'vue'
 export default {
   name: 'Calculator',
   props: {
     msg: String
+  },
+  data(){
+    return{
+        inputnumber1:'0000',
+        inputnumber2:'0000'
+    }
+  },methods:{
+    //計算ボタンを押したときの挙動
+    doCalc: function(){
+      alert('test fuction called doCalc');
+    },
+    //削除ボタンを押下した時の挙動
+    doDelete: function(){
+      alert('test fuction called doDelete');
+    }
   }
 }
 </script>
