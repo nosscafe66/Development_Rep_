@@ -28,10 +28,13 @@ export default {
   },methods:{
     //計算ボタンを押したときの挙動
     doCalc: function(){
-      alert('test fuction called doCalc');
+      let result = this.inputnumber1 + this.inputnumber2;
+      alert('test fuction called doCalc'+ result);
+      return result
     },
     //削除ボタンを押下した時の挙動
     doDelete: function(){
+      //let result = this.inputnumber1 + this.inputnumber2;
       alert('test fuction called doDelete');
     }
   }
