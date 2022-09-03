@@ -41,6 +41,9 @@ export default {
 }
 </script>
 <style>
+body {
+background-color: #8df8b8;
+}
 button {
   /* ブラウザ特有のスタイルを無効に */
   -moz-appearance: none;
