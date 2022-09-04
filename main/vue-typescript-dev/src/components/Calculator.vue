@@ -1,43 +1,50 @@
-<template>
+<template><!--template-->
 <div class="calculator">
-  <p>Caluculator Program</p>
+  <p>{{appName}}</p>
   <textarea name="text" id="" cols="30" rows="10"></textarea>
   <br>
+  <p>{{message}}</p>
   <input type="number" placeholder="数値1" v-model.number="inputnumber1">
   <input type="number" placeholder="数値2" v-model.number="inputnumber2">
-  <p>結果：{{inputnumber1 + inputnumber2}}</p>
-  <br>
-  <ul>
-    <button v-on:click="doCalc()" class="button">計算</button>
-    <button v-on:click="doDelete()" class="button">消去</button>
-  </ul>
+  
+  <h2 v-show="showText">結果</h2>
+  <hr>
+  <button v-on:click="doCalc" class="button">計算</button>
+  <button v-on:click="doDelete" class="button">消去</button>
 </div>
 </template>
-<script>
+<script>//javascript
 //import Vue from 'vue'
 export default {
   name: 'Calculator',
   props: {
-    msg: String
+    likeCount: { type: Number, default: 3 }
   },
   data(){
     return{
-        inputnumber1:'0000',
-        inputnumber2:'0000'
+        appName:'Calculator',
+        message:'Input number',
+        showText: false
+        //inputnumber1:'-',
+        //inputnumber2:'-',
+        //result:'-'
     }
   },methods:{
     //計算ボタンを押したときの挙動
     doCalc: function(){
-      let result = this.inputnumber1 + this.inputnumber2;
-      alert('test fuction called doCalc'+ result);
-      return result
+      console.log("calc!!");
+      this.result = this.inputnumber1 + this.inputnumber2;
+      //alert('test fuction called doCalc '+ result);
     },
-    //削除ボタンを押下した時の挙動
     doDelete: function(){
-      //let result = this.inputnumber1 + this.inputnumber2;
-      alert('test fuction called doDelete');
+      this.result = (this.inputnumber1 + this.inputnumber2) * 0;
     }
   }
+  //,methods:{
+  //  reset() {
+  //    this.count +=1;
+  //  }
+  //}
 }
 </script>
 <style>
