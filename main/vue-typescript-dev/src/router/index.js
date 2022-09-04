@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Privacy from '../views/Privacy.vue'
 import CalculatorPage from '../views/CalculatorPage.vue'
+import ChatroomPage from '../views/ChatroomPage.vue'
 
 const routes = [
   {
@@ -26,6 +27,10 @@ const routes = [
     path: '/calculator',
     name: 'calculator',
     component: CalculatorPage
+  },{
+    path: '/chatroom',
+    name: 'chatroom',
+    component: ChatroomPage
   },
 ]
 
