@@ -1,14 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 import Privacy from '../views/Privacy.vue'
 import CalculatorPage from '../views/CalculatorPage.vue'
 import ChatroomPage from '../views/ChatroomPage.vue'
+import Main from '../views/Main.vue'
+import ManyFunctionPage from '../views/ManyFunctionPage.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'Main',
+    component: Main
   },
   {
     path: '/about',
@@ -31,6 +32,10 @@ const routes = [
     path: '/chatroom',
     name: 'chatroom',
     component: ChatroomPage
+  },{
+    path: '/function',
+    name: 'function',
+    component: ManyFunctionPage
   },
 ]
 
